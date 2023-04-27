@@ -1,0 +1,307 @@
+  @import url('https://fonts.googleapis.com/css2?family=Antonio:wght@700&display=swap');
+  *{
+    margin-left: 0%;
+    margin-right: 0%;
+    /* text-decoration:none; */
+
+  }
+  body{
+    font-family: "Antonio", "sans-serif";
+  }
+  a{
+    text-decoration: none !important;
+  }
+header{
+    background-size: cover;
+    background-image: url(./Assests/weight-stack\ 1.png);
+    height: 50vh;
+}  
+.nav-link{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+
+letter-spacing: 0.05em;
+}
+.nav-link:hover{
+    color: blue !important;
+}
+.header-content p{
+    margin-top: 1rem;
+    padding: 10px;
+    /* background-color: black; */
+}
+.grid-container{
+    max-width: 900px;
+}
+.new-member{
+    padding: 2%;
+    width: 150%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.493);
+    text-decoration: none;
+}
+.new-member:hover{
+    background-color: black;
+}
+.single{
+    padding: 10%;
+    margin-top: 2%;
+    opacity: 60%;
+    text-decoration: none;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 22px;
+color: #FFFFFF;
+    width: 100% !important;
+    background-color:black
+    
+    
+}
+.offer{
+    /* position: absolute;
+width: 209px;
+height: 49px;
+left: 254px;
+top: 2279px; */
+
+
+    font-family: 'Antonio';
+font-style: normal;
+font-weight: 700;
+font-size: 38px;
+line-height: 49px;
+
+color: #000000;
+}
+.this-is-it{
+    font-family: 'Antonio';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 52px;
+text-align: center;
+
+/* WHITE */
+
+color: #FFFFFF;
+}
+.new-member{
+    font-family: 'Antonio';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 26px;
+/* identical to box height */
+
+text-align: center;
+
+/* WHITE */
+
+color: #FFFFFF;
+
+}
+.welcome-to-xp{
+    font-family: 'Antonio';
+font-style: normal;
+font-weight: 700;
+font-size: 38px;
+line-height: 49px;
+/* text-align: center; */
+
+color: #000000;
+}
+.membership{
+    font-family: 'Antonio';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 41px;
+
+color: #000000;
+}
+.month-month{
+    font-family: 'Calibri';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 18px;
+letter-spacing: 0.05em;
+
+color: #000000;
+}
+.guest{
+    width: 83px;
+height: 41px;
+left: 254px;
+top: 1995px;
+
+font-family: 'Antonio';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 41px;
+
+color: #000000;
+}
+.keycard{
+    font-family: 'Calibri';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+color: #000000;
+}
+.line{
+    padding-right: 5%;
+    padding-left: 5%;
+width: 650px;
+height: 0px;
+left: 395px;
+top: 2358px;
+
+border: 0.5px solid #848282;
+}
+.AN{
+    font-family: 'Calibri';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+color: #000000;
+}
+.ul-list{
+    font-family: 'Calibri';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+color: #000000;
+}
+.review{
+    font-family: 'Antonio';
+font-style: normal;
+font-weight: 700;
+font-size: 38px;
+line-height: 49px;
+
+color: #000000;
+}
+.staff{
+    font-family: 'Antonio';
+font-style: normal;
+font-weight: 700;
+font-size: 38px;
+line-height: 49px;
+
+color: #000000;
+}
+.grid-img{
+    text-align: center;
+    font-family: 'Calibri';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+color: #000000;
+}
+.map{
+    align-content: center !important;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.grid-img2{
+    text-align: center;
+    font-family: 'Calibri';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 18px;
+letter-spacing: 0.05em;
+
+color: #000000;
+}
+.footer{
+    width: auto;
+    padding: 3%;
+    background-color: rgba(0, 0, 0, 0.582);
+}
+.foot{
+    width: 10%;
+    color: #FFFFFF;
+    text-decoration: none;
+    align-items: center !important;
+}
+.foot2-main{
+    width: auto;
+    padding: 5%;
+    background-color: black;
+}
+.foot2{
+    width: 50%;
+}
+.foot-text{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 20px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+text-decoration: none !important;
+}
+.foot3-main{
+    width: auto;
+    padding: 5%;
+    background-color: black;
+}
+.foot3{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+
+text-align: center;
+
+color: rgba(255, 255, 255, 0.8);
+}
+.power{
+    font-family: 'Calibri';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+text-align: center;
+
+color: rgba(255, 255, 255, 0.5);
+}
+/* i:hover{
+    color: #FFFFFF;
+}
+.fa-brands:hover{
+    background-color: #FFFFFF;
+} */
+/* .social{
+    padding: 10px;
+    position: relative;
+    background-color: white;
+    border-radius: 50%;
+    width: 65px;
+    height: 35px;
+}
+i{
+    position: absolute;
+    left: 10%;
+} */
