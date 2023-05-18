@@ -12,9 +12,9 @@ body{
   }
 
 header{
-    height: 20vh;
-    background-color: #000000;
-    
+    height: 50vh;
+    background-image: url("../Assests/bootcamp/Rectangle\ 44.png");
+    /* background-color: blue; */
 }
 .nav-link{
     font-family: 'Poppins';
@@ -64,7 +64,6 @@ color: #000000;
 .personal{
     margin: 13% 13%;
 }
-
 .monthly{
     font-family: 'Antonio';
 font-style: normal;
@@ -334,48 +333,55 @@ i{
 a{
     text-decoration: none !important;
   }
-  .grid-box{
+  .hero{
+    width: 80%;
+    margin-top: 4rem;
+}
+.assests-nutition{
+    width: 55%;
+}
+.personal87{
     width: 40%;
-    background: #D9D9D9;
-  }
-  .inside{
     
-    padding: 5% ;
-    font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 32px;
-line-height: 39px;
-/* identical to box height */
-
-
-color: #000000;
-  }
-  .ipsum{
-    padding: 5%;
+}
+textarea{
+    width: 300%;
+}
+.ladin{
     font-family: 'Calibri';
 font-style: normal;
 font-weight: 400;
-font-size: 17px;
-line-height: 21px;
+font-size: 15px;
+line-height: 18px;
 
 color: #000000;
 
-  }
-  .grid-container{
-    max-width: 900px;
-  }
-  .pls{
-    gap: 6%;
-  
-    margin: 2% 2%;
-  }
-  .pls2{
-    margin: auto;
-  }
-  .plg3{
-    width: 100%;
-  }
-  .opn{
-    
-  }
+}
+.MWF{
+    /* Headline 7 - Bold, 15 */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 22px;
+/* identical to box height */
+
+text-align: center;
+
+/* WHITE */
+
+color: #FFFFFF;
+}
+.hero-content1{
+    width: 88%;
+}
+.josh{
+    width: 59%;
+}
+.fa{
+    color: #b7bbc2;
+}
+.fa:hover{
+    color: #fff;
+}

@@ -13,7 +13,7 @@ body{
 
 header{
     height: 50vh;
-    background-image: url(./Assests/powerlifting/Rectangle\ 44.png)
+    background-image: url(../Assests/powerlifting/Rectangle\ 44.png)
     
 }
 .nav-link{
@@ -376,3 +376,9 @@ color: #000000;
   .plg3{
     width: 100%;
   }
+  .fa{
+    color: #b7bbc2;
+}
+.fa:hover{
+    color: #fff;
+}

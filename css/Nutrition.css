@@ -11,9 +11,9 @@ body{
     font-family: "Antonio", "sans-serif";
   }
 
-  header{
+header{
     height: 50vh;
-    background-image: url(./Assests/powerlifting/Rectangle\ 44.png)
+    background-image: url(../Assests/Nutrition/Rectangle\ 44.png)
     
 }
 .nav-link{
@@ -333,13 +333,23 @@ i{
 a{
     text-decoration: none !important;
   }
-  .eqip{
-    font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 19px;
-
-color: #000000;
-
-  }
+  .hero{
+    width: 80%;
+    margin-top: 4rem;
+}
+.assests-nutition{
+    width: 55%;
+}
+.personal87{
+    width: 40%;
+    
+}
+textarea{
+    width: 300%;
+}
+.fa{
+    color: #b7bbc2;
+}
+.fa:hover{
+    color: #fff;
+}

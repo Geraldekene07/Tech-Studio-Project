@@ -12,8 +12,8 @@ body{
   }
 
 header{
-    height: 50vh;
-    background-image: url(./Assests/Nutrition/Rectangle\ 44.png)
+    height: 20vh;
+    background-color: #000000;
     
 }
 .nav-link{
@@ -346,4 +346,22 @@ a{
 }
 textarea{
     width: 300%;
+}
+.tida{
+    width: 30%;
+    padding: 3%;
+    /* width: 40%; */
+    font-family: 'Calibri';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+color: #000000;
+}
+.fa{
+    color: #b7bbc2;
+}
+.fa:hover{
+    color: #fff;
 }
