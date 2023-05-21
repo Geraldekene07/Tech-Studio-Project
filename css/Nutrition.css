@@ -353,3 +353,29 @@ textarea{
 .fa:hover{
     color: #fff;
 }
+@media(max-width:576px){
+   
+    .foot2{
+        display: flex;
+        flex-direction: column;
+        display: none;
+    }
+    .foot-text{
+        /* display: none; */
+        width: auto;
+    }
+    .foot-cont{
+        margin-top: 10%;
+        margin: 0%,0%;
+        padding: 0%,0%;
+
+        
+    }
+    .footer{
+        margin: 1%,1%;
+    }
+    textarea{
+        rows: 1;
+        /* display: none; */
+    }
+}

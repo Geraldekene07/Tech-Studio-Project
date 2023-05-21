@@ -20,10 +20,10 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
 </head>
 <header class="container mt-4">
-    <nav class="container navbar navbar-expand-lg bg-body-light">
+    <nav class="navbar navbar-expand-lg navbar-dark p-3">
         <div class="container-fluid ">
           <a class="navbar-brand" href="index.html"><img src="./Assests/welcome to xp fitness/image 1.png" alt=""></a>
-          <button class="navbar-toggler nav-btn" type="button" data-bs-toggle="collapse" data-bs-target="navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
             <div class="collapse navbar-collapse offset-3" id="navbarSupportedContent">
@@ -49,6 +49,29 @@
             </div>        
         </div>
       </nav>
+      <!--  -->
+
+
+
+      <!-- <div class="collapse" id="navbarToggleExternalContent">
+        <div class="bg-dark p-4">
+          <h5 class="text-white h4">Collapsed content</h5>
+          <span class="text-body-secondary">Toggleable via the navbar brand.</span>
+        </div>
+      </div>
+      <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </nav> -->
+    
+
+
+
+
+      <!--  -->
       <div class="header-content text-light text-center col-md-4 offset-4">
         <h1 class="this-is-it">THIS IS IT, <br> THIS IS THE ONE</h1>
       </div>
@@ -124,7 +147,7 @@
                 <div class="review mt-5"><h3>GREAT REVIEWS</h3></div>
             </div>
             
-            <div id="carouselExample" class="carousel slide">
+            <div  class="carousel-slide container my-5" data-bs-ride="carousel" data-bs-interval="2000">
                 <div style="align-items: center;" class="carousel-inner">
                   <div class="carousel-item active offset-3">
                     <img src="./Assests/Rectangle 12.png" width="200px" class="d-block w-50" alt="">
@@ -136,19 +159,20 @@
                     <img src="./Assests/Rectangle 12.png" class="d-block w-50" alt="...">
                   </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Previous</span>
                 </button>
                 <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Next</span>
-                </button>
+                </button> -->
               </div>
             <div class="offset-2 mt-5">
                 <p class="staff">STAFF AND TRAINERS</p>
             </div>
-            <div class="grid2 grid-container row mx-auto mt-4">
+            <div class="staff">
+              <div class="grid2 grid-container row mx-auto mt-4">
                 <div class="grid-img col"><img class="img-fluid" src="./Assests/welcome to xp fitness/Rectangle 15.png" alt="">Scott, Manager</div>
                 <div class="grid-img col"><img class="img-fluid" src="./Assests/welcome to xp fitness/Rectangle 18.png" alt="">Dominique, Trainer + Staff</div>
                 <div class="grid-img col"><img class="img-fluid" src="./Assests/welcome to xp fitness/Rectangle 17.png" alt="">Areli, Staff</div>
@@ -160,14 +184,16 @@
                 <div class="grid-img col"><img class="img-fluid" src="./Assests/welcome to xp fitness/Rectangle 20.png" alt="">AJ, Trainer</div>
                 <div class="grid-img col"><img class="img-fluid" src="./Assests/welcome to xp fitness/Rectangle 21.png" alt="">Matt, Trainer</div>
                 <div class="grid-img col"><img src="./Assests/welcome to xp fitness/Rectangle 22.png" height="213px" alt="">Lance, (photo coming soon)</div>
-                <img class="mt-4" src="./Assests/welcome to xp fitness/Map.png" alt="">
+                <img class="map mt-4" src="./Assests/welcome to xp fitness/Map.png" alt="">
                 <p class="grid-img2 mt-4">join online // (843) 415-8655 training@xpfitness.com // member access 4a - 11p daily</p>
              </div>
+            </div>
         </section>
     </main>
 
 
-    <footer class="footer mt-5 mx-5 d-flex justify-content-center">
+    <div class="foot-cont">
+      <footer class="footer mt-5 mx-5 d-flex justify-content-center">
         <div class="foot d-flex justify-content-between">
         <a class="social" href=""><i class="fa fa-brands fa-facebook"  #bcc0c7;></i></a>
         <a class="social mx-2" href=""><i class="fa fa-regular fa-envelope"  #9fa2a8;></i></a>
@@ -187,6 +213,7 @@
         <p>XP FITNESS, 2 MARSHLAND RD, HILTON HEAD ISLAND, SC, 29926   843.415.8655   TRAINING@XPFITNESS.COM</p>
         <p class="power">Powered by <u>Squarespace</u></p>
 
+    </div>
     </div>
     </div>
     
