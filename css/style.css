@@ -245,6 +245,7 @@ color: #000000;
 .footer{
     width: auto;
     padding: 3%;
+    margin: 5%;
     background-color: rgba(0, 0, 0, 0.582);
 }
 .foot{
@@ -256,6 +257,7 @@ color: #000000;
 .foot2-main{
     width: auto;
     padding: 5%;
+    margin: 5%;
     background-color: black;
 }
 .foot2{
@@ -386,7 +388,11 @@ i{
         
     }
     .footer{
-        margin: 1%,1%;
+        margin: auto;
+    }
+    .foot2-main{
+       
+        margin: auto;
     }
     
 }
