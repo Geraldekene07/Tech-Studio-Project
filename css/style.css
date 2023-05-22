@@ -329,7 +329,9 @@ i{
         display: none;
     }
     
-    
+    .second-content{
+        align-content: center;
+    }
     header{
         height: 20vh;
     }
@@ -337,7 +339,7 @@ i{
     text-align: center;
     }
     .guest{
-        text-align: center;
+        offset: 2%;
     }
     .welcome-to-xp{
         width: 89%;
@@ -387,11 +389,11 @@ i{
     }
     
     .social{
-        display: flex;
-        justify-content: center;
-        align-content: center;
-        width: auto;
-        align-items: center;
+
+        animation: blink 5s infinite;
+    animation-direction: alternate;
+    transition: transform 0.3s ease 0s;
+    animation-iteration-count: initial;
     }
     .footer{
         margin: auto;
@@ -404,6 +406,19 @@ i{
         width: 100%;
         
     }
+
+    @keyframes blink {
+        0% { opacity: 1; }
+        50% { opacity: 0; }
+        100% { opacity: 1; }
+        50%{transition: all;}
+        /* 50% {text-replace: ;} */
+      }
+    .social:hover{
+        transform: scale(1.1);
+
+    }
+    
     
 }
 
