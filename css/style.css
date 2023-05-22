@@ -245,7 +245,7 @@ color: #000000;
 .footer{
     width: auto;
     padding: 3%;
-    margin: 5%;
+    /* margin: 5%; */
     background-color: rgba(0, 0, 0, 0.582);
 }
 .foot{
@@ -257,7 +257,7 @@ color: #000000;
 .foot2-main{
     width: auto;
     padding: 5%;
-    margin: 5%;
+    /* margin: 5%; */
     background-color: black;
 }
 .foot2{
@@ -384,8 +384,14 @@ i{
         margin-top: 10%;
         margin: 0%,0%;
         padding: 0%,0%;
-
-        
+    }
+    
+    .social{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        width: auto;
+        align-items: center;
     }
     .footer{
         margin: auto;
@@ -393,6 +399,10 @@ i{
     .foot2-main{
        
         margin: auto;
+    }
+    .staff{
+        width: 100%;
+        
     }
     
 }
