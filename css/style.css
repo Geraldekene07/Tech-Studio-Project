@@ -319,6 +319,40 @@ i{
     position: absolute;
     left: 10%;
 } */
+
+.social{
+
+    animation: blink 5s infinite;
+animation-direction: alternate;
+transition: transform 0.3s ease 0s;
+animation-iteration-count: initial;
+}
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+    50%{transition: all;}
+    /* 50% {text-replace: ;} */
+  }
+.social:hover{
+    transform: scale(2.1);
+
+}
+
+.this-is-it{
+    animation: blink 5s infinite;
+animation-direction: alternate;
+transition: transform 0.3s ease 0s;
+animation-iteration-count: initial;
+}
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+    50%{transition: all;}
+    /* 50% {text-replace: ;} */
+  }
+
 @media (max-width:576px){
    
     .header-content{
