@@ -23,7 +23,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark p-3">
         <div class="container-fluid ">
           <a class="navbar-brand" href="index.html"><img src="./Assests/welcome to xp fitness/image 1.png" alt=""></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler nav-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
             <div class="collapse navbar-collapse offset-3" id="navbarSupportedContent">
@@ -49,7 +49,32 @@
             </div>        
         </div>
       </nav>
-      <!--  -->
+      <!-- offcanvas -->
+      <div class="offcanvas offcanvas-end bg-dark"  tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="staticBackdropLabel" style="width: 64%;">
+        <div class="offcanvas-header ">
+          <h5 class="offcanvas-title" id="offcanvasWithBothOptions"></h5>
+          <button type="button" class="btn-close " data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+
+        <div class="offcanvas-body">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <!--offcanvas body  -->
+            <li class="nav-item">
+              <a class="nav-link  text-light" href="#">GYM</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  text-light" href="./personal.html">PERSONAL TRAINING</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  text-light" href="powerlifting.html">POWERLIFTING</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="strongman.html">STRONGMAN</a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
 
 
 
@@ -82,7 +107,7 @@
 <body>
     <main>
         <div class="first-content">
-          <h1 class="welcome-to-xp offset-2 mt-5"><strong>WELCOME TO XP FITNESS</strong></h1>
+          <h1 class="welcome-to-xp mx-0 offset-md-2 mt-5"><strong>WELCOME TO XP FITNESS</strong></h1>
         <div class="grid-container row mx-auto mt-4"> 
             <div class="grid-img col"><img class="img-fluid" src="./Assests/welcome to xp fitness/Facility - Img 1.png" alt=""></div>
             <div class="grid-img col"><img class="img-fluid" src="./Assests/welcome to xp fitness/Facility - Img 2.png" alt=""></div>
@@ -114,7 +139,7 @@
                 <div>
                     <a class="single p-3 w-100" href="">COUPLE $85 + $58 ENROLLMENT</a>
                 </div>
-                <div class="mt-5">
+                <div class="second-content mt-5">
                   <h3 class="guest">GUESTS</h3>
                     <p class="keycard">Keep your keycard, skip enrollment on your next visit</p>
                 </div><br>

@@ -365,6 +365,9 @@ color: #000000;
 .fa:hover{
     color: #fff;
 }
+.offcanvas{
+    opacity: 90%;
+}
 
 .social{
 

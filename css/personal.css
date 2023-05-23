@@ -339,6 +339,9 @@ a{
 .fa:hover{
     color: #fff;
 }
+.offcanvas{
+    opacity: 90%;
+}
 .social{
 
     animation: blink 5s infinite;
@@ -356,4 +359,20 @@ animation-iteration-count: initial;
 .social:hover{
     transform: scale(2.1);
 
+}
+@media (max-width: 576px ){
+    .foot2{
+        display: flex;
+        flex-direction: column;
+        display: none;
+    }
+    .foot-text{
+        /* display: none; */
+        width: auto;
+    }
+    .foot-cont{
+        margin-top: 10%;
+        margin: 0%,0%;
+        padding: 0%,0%;
+    }
 }

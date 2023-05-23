@@ -274,6 +274,9 @@ color: #000000;
 .foot2{
     width: 50%;
 }
+.offcanvas{
+    opacity: 90%;
+}
 .foot-text{
     font-family: 'Poppins';
 font-style: normal;
@@ -390,4 +393,13 @@ animation-iteration-count: initial;
     .footer{
         margin: 1%,1%;
     }
+    /* .grid-img{
+        columns: 10;
+    } */
+
+    /* .grid-container{
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+    } */
 }

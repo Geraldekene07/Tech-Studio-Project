@@ -499,6 +499,9 @@ border-radius: 5px;
 .fa:hover{
     color: #fff;
 }
+.offcanvas{
+    opacity: 90%;
+}
 .social{
 
     animation: blink 5s infinite;

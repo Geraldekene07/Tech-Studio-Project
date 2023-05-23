@@ -353,6 +353,9 @@ textarea{
 .fa:hover{
     color: #fff;
 }
+.offcanvas{
+    opacity: 90%;
+}
 
 .social{
 

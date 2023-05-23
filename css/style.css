@@ -263,6 +263,17 @@ color: #000000;
 .foot2{
     width: 50%;
 }
+.nav-btn{
+    border: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
+.offcanvas{
+    opacity: 90%;
+}
+.btn-close{
+    background-color: white;
+}
 .foot-text{
     font-family: 'Poppins';
 font-style: normal;
@@ -375,8 +386,12 @@ animation-iteration-count: initial;
     .guest{
         offset: 2%;
     }
+    .first-content{
+        width: 100%;
+    }
     .welcome-to-xp{
-        width: 89%;
+        align-content: center;
+        width: 100px;
     }
     main{
         width: 100%;
@@ -405,7 +420,7 @@ animation-iteration-count: initial;
     }
     .welcome-to-xp{
         width: 100%;
-        display: none;
+        
     }
     .foot2{
         display: flex;

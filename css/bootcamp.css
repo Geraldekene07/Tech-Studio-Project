@@ -347,6 +347,9 @@ a{
 textarea{
     width: 300%;
 }
+.offcanvas{
+    opacity: 90%;
+}
 .ladin{
     font-family: 'Calibri';
 font-style: normal;

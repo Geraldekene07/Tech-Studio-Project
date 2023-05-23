@@ -22,7 +22,7 @@
     <nav class="container navbar navbar-expand-lg bg-body-light">
         <div class="container-fluid ">
           <a class="navbar-brand" href="index.html"><img src="./Assests/personal training/image 1.png" alt=""></a>
-          <button class="navbar-toggler nav-btn" type="button" data-bs-toggle="collapse" data-bs-target="navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
             <div class="collapse navbar-collapse offset-3" id="navbarSupportedContent">
@@ -48,7 +48,37 @@
             </div>        
         </div>
       </nav>
-      <div class="header-content text-light text-center col-md-4 mt-4 offset-4">
+
+       <!-- offcanvas -->
+
+       <div class="offcanvas bg-dark offcanvas-end"  tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="staticBackdropLabel" style="width: 64%;">
+        <div class="offcanvas-header ">
+          <h5 class="offcanvas-title" id="offcanvasWithBothOptions"></h5>
+          <button type="button" class="btn-close " data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+
+        <div class="offcanvas-body">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <!--  -->
+            <li class="nav-item">
+              <a class="nav-link  text-light" href="./index.html">GYM</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  text-light" href="./personal.html">PERSONAL TRAINING</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  text-light" href="powerlifting.html">POWERLIFTING</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="strongman.html">STRONGMAN</a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+
+      <div class="header-content text-light text-center col-md-4 mt-4 offset-md-4">
         <h1 class="this-is-it">PERSONAL TRAINING</h1>
       </div>
 </Header>
@@ -133,7 +163,7 @@
             </div>
             <div class="form-group col-md-4 mt-3">
               <label for="inputState">Tell us a little about yourself *</label>
-              <textarea name="" id="" cols="124" rows="6"></textarea>
+              <textarea class="col-12" name="" id="" cols="124" rows="4"></textarea>
             </div>
             </div>
             <h1 class="tng mt-4">Request a specific trainer</h1>
@@ -245,8 +275,9 @@
        </form>
         
       </div>
-      <h3 class="personal1 mt-5">FREQUENTLY ASKED QUESTIONS</h3>
-      <p class="lorem mt-4">
+      <div class="lorem mt-4 ">
+        <h3 class="personal1 mt-5">FREQUENTLY ASKED QUESTIONS</h3>
+      <p>
         Lörem ipsum lude. Vavisade nirade egovis låjilingar. Regon mopevis miliga. Nemålig lusa spenade vira. Biogen sevis selig. Nologi damonde på pår. Timent nysat att tenåling pen. Ninas koncentrism ifall meska. Parangen larar så prehab. Gymohet besam ede spoilervarning. Falust mosepöktigt onat <br>
          spoilervarning raren. Preskapet sorat öhäliga, esahet astrohet. Böhil rement dedat. <br> 
 Faskap vuxenmålarbok även om sopängar antispessa. Dinösade decinat inte ultranas. Plavis makrogen då favis. Kanskeman antigisk nigurat ladin. Ade mymeligt prer, per. Peren bömyn i superspridare pöjulogi uligt. Plande hypertos. Misamma anat det spenera sugöser till påska. Kalkstenssångare ak i exofånde: mesk. Prena föv dinar vejuledes dirus. Rehynar vare till asm. Sopögt exona för don. Renera bäras vijyning till jypaktig och våsen. <br>
@@ -261,6 +292,8 @@ Nåna valstuga prenelig post. Dir komtion ivirtad. Mydint telehide diling. Nåle
 
       </p>
       <p class="lorem mt-5">Call us at 843.415.8655 or email training@XPFitness.com to set up your free consultation.</p>
+      </div>
+     
 
     </div>
   </main>
