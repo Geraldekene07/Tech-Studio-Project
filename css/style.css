@@ -16,7 +16,7 @@
 header{
     background-size: cover;
     background-image: url(../Assests/weight-stack\ 1.png);
-    height: 50vh;
+    height: 60vh;
     
 }  
 hr{
@@ -467,6 +467,7 @@ animation-iteration-count: initial;
         transform: scale(1.1);
 
     }
+    
     
     
 }
