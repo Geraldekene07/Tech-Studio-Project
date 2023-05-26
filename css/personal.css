@@ -378,4 +378,11 @@ animation-iteration-count: initial;
     .lorem{
         width: auto;
     }
+    .personal{
+
+        margin: 0 0;
+    }
+    .grid-container{
+        max-width: 100%;
+    }
 }

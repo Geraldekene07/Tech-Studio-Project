@@ -379,6 +379,7 @@ animation-iteration-count: initial;
         flex-direction: column;
         display: none;
     }
+    
     .foot-text{
         /* display: none; */
         width: auto;
@@ -393,13 +394,11 @@ animation-iteration-count: initial;
     .footer{
         margin: 1%,1%;
     }
-    /* .grid-img{
-        columns: 10;
-    } */
+    .personal{
 
-    /* .grid-container{
-        display: flex;
-        flex-direction: column;
-        width: fit-content;
-    } */
+        margin: 0 0;
+    }
+    .grid-container{
+        max-width: 100%;
+    }
 }

@@ -426,4 +426,11 @@ animation-iteration-count: initial;
     .footer{
         margin: 1%,1%;
     }
+    .personal{
+
+        margin: 0 0;
+    }
+    .grid-container{
+        max-width: 100%;
+    }
 }

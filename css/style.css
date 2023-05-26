@@ -370,6 +370,11 @@ animation-iteration-count: initial;
         display: none;
     }
 
+    .personal{
+
+        margin: 0 0;
+    }
+
     .line{
         display: none;
     }

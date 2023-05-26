@@ -447,4 +447,7 @@ animation-iteration-count: initial;
         transform: scale(1.1);
 
     }
+    .hero{
+        margin: 0 0;
+    }
 }

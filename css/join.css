@@ -533,13 +533,16 @@ animation-iteration-count: initial;
     }
     .box{
         box-sizing: border-box;
-
-
 width: 100%;
 height: 350px;
 /* left: 327px;
 top: 328px; */
         
+    }
+
+    .personal{
+
+        margin: 0 0;
     }
 
     .main-box{

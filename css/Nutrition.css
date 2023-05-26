@@ -439,5 +439,11 @@ animation-iteration-count: initial;
         transform: scale(1.1);
 
     }
+    .personal87{
+        width: 50%;
+    }
+    .personal{
+        margin: 0 0;
+    }
     
 }
